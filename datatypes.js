@@ -1,7 +1,7 @@
 // Datatypes-they allow us to represent real world data in a programmimng
 
 /*1. Primitive- String,number, boolean, undefined,null
-2. None Primitive- objects and arrays
+  2. None Primitive- objects and arrays
 Use the typeof keyword to check/know the datatype
 */
 
@@ -66,3 +66,4 @@ let name = null;
 // 7. undefined -> not assigned any value
 let age;
 console.log(age);
+

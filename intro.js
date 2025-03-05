@@ -25,26 +25,31 @@ variables in js
 4. Do not use reserved keywors
 5. As a rule of thumb use const or let to create variables, there is also the var keyword but we do not it
 */
-name = ("Jane Doe");
-firstName = ("Robert")
-secondName = ("Haji")
-dateofBirth = ("1994")
-console.log(firstName)
-console.log(secondName)
-console.log(dateofBirth)
+name = "Jane Doe";
+firstName = "Robert";
+secondName = "Haji";
+dateofBirth = "1994";
+console.log(firstName);
+console.log(secondName);
+console.log(dateofBirth);
 
-console.log(name)
-num = 3 + 6
-console.log(num) 
+console.log(name);
+num = 3 + 6;
+console.log(num);
 // let keyword
 // allos reassigning of values
-let age = 18
-console.log(age)
+let age = 18;
+console.log(age);
 // reassignment - giving a different value to the same variable
-age = 20
-console.log(20)
-var goat = (Messi)
-console.log(goat)
+age = 20;
+console.log(20);
 
 // Var keyword allows redeclaring
 // const keyword value is immutable
+// You can also have a variable on one line and then assignment on the other line: Example
+// let age
+// age = 21
+// NB Declaration has to come first before assigning
+// Object string
+const classrep = { firstName: "Johnson", lastName: "Alala" };
+console.log(typeof classrep);
